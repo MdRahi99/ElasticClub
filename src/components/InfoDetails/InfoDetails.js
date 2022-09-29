@@ -1,6 +1,10 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const InfoDetails = ({breakBtn, info}) => {
+
+    const notify = () => toast.info("Task Completed", {position: 'top-center', theme: 'colored'});
 
     let totalTime = 0;
     let timeQuantity = 0;
@@ -22,7 +26,8 @@ const InfoDetails = ({breakBtn, info}) => {
                 <h1 className='font-semibold'>Break Time <span className='ml-24'>{breakBtn}</span></h1>
             </div>
 
-            <button className='bg-teal-600 hover:bg-teal-500 py-3 px-12 rounded-md text-gray-100 my-12'>Tasks Completed</button>
+            <button onClick={notify} className='bg-teal-600 hover:bg-teal-500 py-3 px-12 rounded-md text-gray-100 my-12'>Tasks Completed</button>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
