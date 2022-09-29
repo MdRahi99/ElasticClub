@@ -1,74 +1,83 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "img": "https://images.unsplash.com/photo-1500468756762-a401b6f17b46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
     "activity_name": "Jogging",
     "time": 60,
     "age_limit": "18-22",
-    "desc": "Regularly jogging can help you lose weight, especially if you also modify your diet. Jogging can also help you improve your heart health and immune system."
+    "desc": "Regularly jogging can help you lose weight, especially if you also modify your diet. Jogging can also help you improve your heart health and immune system.",
+    "time_quantity": 0
   },
   {
-    "id": 2,
+    "id": "2",
     "img": "https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "activity_name": "Swimming",
     "time": 60,
     "age_limit": "15-30",
-    "desc": "builds endurance, muscle strength and cardiovascular fitness. helps you maintain a healthy weight, healthy heart and lungs. tones muscles and builds strength. provides an all-over body workout."
+    "desc": "builds endurance, muscle strength and cardiovascular fitness. helps you maintain a healthy weight, healthy heart and lungs. tones muscles and builds strength. provides an all-over body workout.",
+    "time_quantity": 0
   },
   {
-    "id": 3,
+    "id": "3",
     "img": "https://images.unsplash.com/photo-1490507278117-59a4ccd0165f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "activity_name": "Biking",
     "time": 60,
     "age_limit": "14-25",
-    "desc": " Cycling improves mental well-being, Strengthen your immune system by cycling, Cycling can help you lose weight, Cycling builds muscle"
+    "desc": " Cycling improves mental well-being, Strengthen your immune system by cycling, Cycling can help you lose weight, Cycling builds muscle",
+    "time_quantity": 0
   },
   {
-    "id": 4,
+    "id": "4",
     "img": "https://images.unsplash.com/photo-1586627161720-ee2849303aee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "activity_name": "Climbing",
     "time": 30,
     "age_limit": "20-25",
-    "desc": "Climbing works multiple muscle groups, both in the upper and lower body. Your back, abdominal muscles and legs all get exercised as well as your ﬁngers, shoulders and arms. Regular climbing can also improve your overall stamina."
+    "desc": "Climbing works multiple muscle groups, both in the upper and lower body. Your back, abdominal muscles and legs all get exercised as well as your ﬁngers, shoulders and arms. Regular climbing can also improve your overall stamina.",
+    "time_quantity": 0
   },
   {
-    "id": 5,
+    "id": "5",
     "img": "https://images.unsplash.com/photo-1584827386894-fc939dad6078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "activity_name": "Weight Lifting",
     "time": 30,
     "age_limit": "18-28",
-    "desc": "Strength training can help you manage or lose weight, and it can increase your metabolism to help you burn more calories. Enhance your quality of life. Strength training may enhance your quality of life and improve your ability to do everyday activities."
+    "desc": "Strength training can help you manage or lose weight, and it can increase your metabolism to help you burn more calories. Enhance your quality of life. Strength training may enhance your quality of life and improve your ability to do everyday activities.",
+    "time_quantity": 0
   },
   {
-    "id": 6,
+    "id": "6",
     "img": "https://images.unsplash.com/photo-1509411627497-1f19a8db1854?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "activity_name": "Wall Push-Ups",
     "time": 60,
     "age_limit": "20-25",
-    "desc": "Wall push-up benefits include stronger chest, shoulder, arms and back muscles. Plus, improved core strength, posture and upper-body mobility."
+    "desc": "Wall push-up benefits include stronger chest, shoulder, arms and back muscles. Plus, improved core strength, posture and upper-body mobility.",
+    "time_quantity": 0
   },
   {
-    "id": 7,
+    "id": "7",
     "img": "https://images.unsplash.com/photo-1510697963685-53101e615777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "activity_name": "Gripping a Tennis Ball",
     "time": 60,
     "age_limit": "15-50",
-    "desc": "It ultimately transfers to your hand and wrist. Upon impact with the ball, your wrist extensor muscles will activate your forearm muscles to stabilize your wrist."
+    "desc": "It ultimately transfers to your hand and wrist. Upon impact with the ball, your wrist extensor muscles will activate your forearm muscles to stabilize your wrist.",
+    "time_quantity": 0
   },
   {
-    "id": 8,
+    "id": "8",
     "img": "https://images.unsplash.com/photo-1588357937997-2b82e303209e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "activity_name": "Arm Curls",
     "time": 30,
     "age_limit": "20-25",
-    "desc": "Bicep curls share the same benefits of hammer curls since they are variations of each other. The bicep muscle works in tandem with lats, traps, deltoids, and triceps in shoulder and elbow functions. The biggest benefit of bicep curls is that this exercise is easy to learn and perform."
+    "desc": "Bicep curls share the same benefits of hammer curls since they are variations of each other. The bicep muscle works in tandem with lats, traps, deltoids, and triceps in shoulder and elbow functions. The biggest benefit of bicep curls is that this exercise is easy to learn and perform.",
+    "time_quantity": 0
   },
   {
-    "id": 9,
+    "id": "9",
     "img": "https://images.unsplash.com/photo-1499290572571-a48c08140a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
     "activity_name": "Overhead Arm Curl",
     "time": 30,
     "age_limit": "20-28",
-    "desc": "Also known as the reverse curl, the overhand bicep curl is one of the best variations of the standardsupinated bicep curl. If you want to target your biceps and forearms at the same time to build total arm strength, overhand bicep curls are for you."
+    "desc": "Also known as the reverse curl, the overhand bicep curl is one of the best variations of the standardsupinated bicep curl. If you want to target your biceps and forearms at the same time to build total arm strength, overhand bicep curls are for you.",
+    "time_quantity": 0
   }
 ]

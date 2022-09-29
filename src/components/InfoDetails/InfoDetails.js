@@ -2,11 +2,12 @@ import React from 'react';
 
 const InfoDetails = ({breakBtn, info}) => {
 
-    
     let totalTime = 0;
+    let timeQuantity = 0;
     
     for(const time of info){
-        totalTime = totalTime + time.time;
+        timeQuantity = timeQuantity + time.time_quantity;
+        totalTime = totalTime + time.time * time.time_quantity;
     }
 
     return (

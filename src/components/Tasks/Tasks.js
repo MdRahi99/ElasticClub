@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import Info from '../Info/Info';
 import Task from '../Task/Task';
 import './Tasks.css';
@@ -13,9 +14,35 @@ const Tasks = () => {
         .then(data => setTasks(data))
     }, [])
 
-    const handleAddToItem = (item) => {
-        const newItem = [...info, item];
+    useEffect(() => {
+        const storedItem = getStoredCart();
+        const savedItem = [];
+        for(const id in storedItem){
+            const addedItem = tasks.find(task => task.id === id);
+            if(addedItem){
+                const timeQuantity = storedItem[id];
+                addedItem.time_quantity = timeQuantity;
+                savedItem.push(addedItem);
+            }
+        }
+        setInfo(savedItem);
+    }, [tasks])
+
+    const handleAddToItem = (selectedItem) => {
+        let newItem = []
+        const existItems = info.find(task => task.id === selectedItem.id);
+        if(!existItems){
+            selectedItem.time_quantity = 1;
+            newItem = [...info, selectedItem];
+        }
+
+        else{
+            const restItems = info.filter(task => task.id !== selectedItem.id);
+            existItems.time_quantity = existItems.time_quantity + 1;
+            newItem = [...restItems, existItems];
+        }
         setInfo(newItem);
+        addToDb(selectedItem.id);
     }
 
     return (
