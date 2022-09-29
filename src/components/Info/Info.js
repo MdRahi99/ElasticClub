@@ -29,12 +29,12 @@ const Info = ({info}) => {
 
             <div className='mt-12 text-gray-200'>
                 <h1 className='text-2xl font-semibold mb-3'>Take a Break</h1>
-                <div className='grid grid-cols-5 gap-2 bg-teal-600 py-4 px-3 rounded-md text-gray-100 text-center'>
-                    <input className='bg-teal-500 rounded-lg hover:bg-teal-400' type="button" name='breakBtn' value='5m' onClick={e => setBreakBtn(e.target.value)}/>
-                    <input className='bg-teal-500 rounded-lg hover:bg-teal-400' type="button" name='breakBtn' value='10m' onClick={e => setBreakBtn(e.target.value)}/>
-                    <input className='bg-teal-500 rounded-lg hover:bg-teal-400' type="button" name='breakBtn' value='15m' onClick={e => setBreakBtn(e.target.value)}/>
-                    <input className='bg-teal-500 rounded-lg hover:bg-teal-400' type="button" name='breakBtn' value='20m' onClick={e => setBreakBtn(e.target.value)}/>
-                    <input className='bg-teal-500 rounded-lg hover:bg-teal-400' type="button" name='breakBtn' value='30m' onClick={e => setBreakBtn(e.target.value)}/>
+                <div className='grid grid-cols-5 gap-2 bg-cyan-700 py-4 px-3 rounded-md text-gray-100 text-center'>
+                    <input className='bg-cyan-800 rounded-lg hover:bg-cyan-600' type="button" name='breakBtn' value='5m' onClick={e => setBreakBtn(e.target.value)}/>
+                    <input className='bg-cyan-800 rounded-lg hover:bg-cyan-600' type="button" name='breakBtn' value='10m' onClick={e => setBreakBtn(e.target.value)}/>
+                    <input className='bg-cyan-800 rounded-lg hover:bg-cyan-600' type="button" name='breakBtn' value='15m' onClick={e => setBreakBtn(e.target.value)}/>
+                    <input className='bg-cyan-800 rounded-lg hover:bg-cyan-600' type="button" name='breakBtn' value='20m' onClick={e => setBreakBtn(e.target.value)}/>
+                    <input className='bg-cyan-800 rounded-lg hover:bg-cyan-600' type="button" name='breakBtn' value='30m' onClick={e => setBreakBtn(e.target.value)}/>
                     
                 </div>
             </div>
