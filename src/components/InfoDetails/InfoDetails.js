@@ -23,7 +23,7 @@ const InfoDetails = ({breakBtn, info}) => {
             </div>
 
             <div className='bg-cyan-700 py-4 px-2 rounded-md text-gray-100'>
-                <h1 className='font-semibold'>Break Time <span className='ml-24'>{breakBtn}</span></h1>
+                <h1 className='font-semibold'>Break Time <span className='ml-20'>{breakBtn}</span></h1>
             </div>
 
             <button onClick={notify} className='bg-cyan-900 hover:bg-cyan-600 py-3 px-12 rounded-md text-gray-100 my-12'>Tasks Completed</button>

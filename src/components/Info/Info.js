@@ -1,9 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import InfoDetails from '../InfoDetails/InfoDetails';
 import './Info.css';
 
 const Info = ({info}) => {
     const [breakBtn, setBreakBtn] = useState('');
+
+    useEffect(() => {
+        localStorage.setItem('break-items', JSON.stringify(breakBtn))
+            setBreakBtn(breakBtn);
+    }, [breakBtn])
 
     return (
         <div className='info-container'>
