@@ -13,6 +13,11 @@ const Tasks = () => {
         .then(data => setTasks(data))
     }, [])
 
+    const handleAddToItem = (item) => {
+        const newItem = [...info, item];
+        setInfo(newItem);
+    }
+
     return (
         <div className='bg-teal-800 py-12'>
             <h2 className='text-1xl lg:text-3xl md:text-3xl font-bold mx-8 text-gray-200'>Select Today's Tasks</h2>
@@ -22,6 +27,7 @@ const Tasks = () => {
                         tasks.map(task => <Task 
                             key={task.id}
                             task={task}
+                            handleAddToItem={handleAddToItem}
                         ></Task>)
                     }
                 </div>

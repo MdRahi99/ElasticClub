@@ -1,13 +1,20 @@
 import React from 'react';
 
-const InfoDetails = ({breakBtn}) => {
+const InfoDetails = ({breakBtn, info}) => {
+
+    
+    let totalTime = 0;
+    
+    for(const time of info){
+        totalTime = totalTime + time.time;
+    }
 
     return (
         <div>
             <h1 className='text-2xl font-semibold mb-2'>Task Details:</h1>
 
             <div className='bg-teal-600 py-4 px-2 my-8 rounded-md text-gray-100'>
-                <h1 className='font-semibold'>Tasks Time <span className='ml-24'></span></h1>  
+                <h1 className='font-semibold'>Tasks Time <span className='ml-20'>{totalTime} min</span></h1>  
             </div>
 
             <div className='bg-teal-600 py-4 px-2 rounded-md text-gray-100'>

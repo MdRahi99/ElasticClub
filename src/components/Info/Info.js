@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import InfoDetails from '../InfoDetails/InfoDetails';
 import './Info.css';
 
-const Info = () => {
+const Info = ({info}) => {
     const [breakBtn, setBreakBtn] = useState('');
 
     return (
@@ -40,7 +40,7 @@ const Info = () => {
             </div>
 
             <div className='mt-12 text-gray-200'>
-                <InfoDetails breakBtn={breakBtn}></InfoDetails>
+                <InfoDetails breakBtn={breakBtn} info={info}></InfoDetails>
             </div>
         </div>
     );
